@@ -1,0 +1,10 @@
+/**
+ * Practice Algorithm for Thursday, March 26th.
+ * @param {string} s
+ * @return {number}
+ */
+var lengthOfLastWord = function(s) {
+    s = s.trim();
+    var arr = s.split(' ');
+    return arr[arr.length-1].length;
+};
